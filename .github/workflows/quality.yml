@@ -38,5 +38,11 @@ jobs:
           cat /tmp/portfolio-preview.log
           exit 1
 
+      - name: Install matching ChromeDriver
+        run: npx --yes browser-driver-manager install chrome
+
       - name: Accessibility smoke test
-        run: npx --yes @axe-core/cli http://127.0.0.1:4173 --exit
+        run: |
+          DRIVER_PATH="$(find "$HOME/.cache" "$HOME/.npm" "$RUNNER_TEMP" -type f -name chromedriver -perm -111 2>/dev/null | head -n 1)"
+          test -n "$DRIVER_PATH"
+          npx --yes @axe-core/cli http://127.0.0.1:4173 --chromedriver-path "$DRIVER_PATH" --exit
