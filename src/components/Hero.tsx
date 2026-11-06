@@ -150,7 +150,7 @@ function Hero() {
             system.status — online
           </p>
           <p className="mt-1.5">
-            <span className="text-ok">{profile.availability}</span>
+            <span className="text-ok">{profile.status}</span>
           </p>
         </div>
       </motion.div>
