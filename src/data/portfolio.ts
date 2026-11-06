@@ -10,9 +10,10 @@ export const profile = {
   headline:
     "Estudo desenvolvimento web construindo projetos práticos, entendendo cada camada e evoluindo uma versão de cada vez.",
   intro:
-    "Estudante de Informática para Internet no IFPR e aluno especial em Sistemas para Internet na UTFPR. Desenvolvo projetos práticos para aprender front-end, back-end e integração com dados.",
+    "Estudante de Informática para Web no IFPR e aluno especial em Sistemas para Internet na UTFPR. Desenvolvo projetos práticos para aprender front-end, back-end e integração com dados.",
   location: "Paraná, BR · UTC−3",
   github: "https://github.com/murilotecoteco",
+  email: "candidomurilo809@gmail.com",
   status: "estudante em evolução",
 };
 
@@ -211,7 +212,7 @@ export const timeline = [
   },
   {
     version: "v0.3",
-    title: "IFPR — Técnico em Informática para Internet",
+    title: "IFPR — Técnico em Informática para Web",
     text: "Lógica, redes, bancos de dados — e a descoberta do Linux, que mudou minha relação com tecnologia: deixei de ser só usuário e comecei a mexer nos parafusos.",
   },
   {
