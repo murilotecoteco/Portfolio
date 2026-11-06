@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import OpenSource from "./components/OpenSource";
 import About from "./components/About";
+import Learning from "./components/Learning";
 import Contact from "./components/Contact";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Projects />
         <OpenSource />
         <About />
+        <Learning />
         <Contact />
       </main>
     </div>
