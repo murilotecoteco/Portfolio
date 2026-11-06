@@ -13,9 +13,7 @@ export const profile = {
     "Estudante de Informática para Internet no IFPR e aluno especial em Sistemas para Internet na UTFPR. Desenvolvo projetos práticos para aprender front-end, back-end e integração com dados.",
   location: "Paraná, BR · UTC−3",
   github: "https://github.com/murilotecoteco",
-  email: "candidomurilo809@gmail.com",
-  status: "online — estudante em evolução",
-  availability: "estudante em evolução · aberto a oportunidades",
+  status: "estudante em evolução",
 };
 
 export type Project = {
