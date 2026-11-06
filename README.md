@@ -50,6 +50,11 @@ O GitHub Actions executa lint, build e uma verificação de acessibilidade no pr
 
 As descrições, projetos, tecnologias e linha do tempo ficam centralizados em `src/data/portfolio.ts`. As imagens dos projetos ficam em `src/assets/`, incluindo `mgmotors-preview.png`.
 
+## Contato
+
+**E-mail:** [candidomurilo809@gmail.com](mailto:candidomurilo809@gmail.com)  
+**GitHub:** [github.com/murilotecoteco](https://github.com/murilotecoteco)
+
 ## Licença
 
 MIT.
