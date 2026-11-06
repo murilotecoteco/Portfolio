@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { ArrowUpRight, Mail } from "lucide-react";
-import { Corners, Dot, GithubIcon } from "./system";
+import { ArrowUpRight } from "lucide-react";
+import { Corners, GithubIcon } from "./system";
 import { profile } from "../data/portfolio";
 
 const LAST_DEPLOY = "2026-11-06";
@@ -50,10 +50,6 @@ function Contact() {
             <p>
               <span className="text-signal">~</span>/portfolio/contato
             </p>
-            <p className="flex items-center gap-2">
-              <Dot state="ok" />
-              system.status — <span className="text-ok">online</span>
-            </p>
             <p className="hidden sm:block">
               local time <span className="text-dim">{clock}</span> UTC−3
             </p>
@@ -73,28 +69,19 @@ function Contact() {
           </h2>
 
             <p className="mt-6 max-w-xl text-sm leading-7 font-light text-dim sm:text-base sm:leading-8">
-              Projetos, contribuições open source, oportunidades de aprender
-              trabalhando — me escreva por e-mail ou me encontre no GitHub.
-              Issues, PRs e discussões são sempre bem-vindos.
+              Para acompanhar meu trabalho prático, veja o código e os projetos publicados no GitHub.
             </p>
 
             <div className="mt-9 flex flex-wrap gap-4 font-mono text-sm">
               <a
-                href={`mailto:${profile.email}`}
-                className="group inline-flex max-w-full items-center gap-2 bg-signal px-4 py-3 text-xs font-medium text-contrast transition-colors hover:bg-signal-hi sm:px-6 sm:text-sm"
-              >
-                <Mail className="size-4 shrink-0" />
-                <span className="break-all">{profile.email}</span>
-                <ArrowUpRight className="size-4 shrink-0 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-              </a>
-              <a
                 href={profile.github}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-2 border border-line px-6 py-3 text-dim transition-colors hover:border-ink hover:text-ink"
+                className="group inline-flex items-center gap-2 bg-signal px-4 py-3 text-xs font-medium text-contrast transition-colors hover:bg-signal-hi sm:px-6 sm:text-sm"
               >
-                <GithubIcon className="size-4" />
-                github
+                <GithubIcon className="size-4 shrink-0" />
+                ver GitHub
+                <ArrowUpRight className="size-4 shrink-0 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </a>
               <a
                 href={`${profile.github}?tab=repositories`}
@@ -105,6 +92,7 @@ function Contact() {
                 <span className="text-faint">$</span> ver repositórios
               </a>
             </div>
+        </div>
         </div>
       </div>
 
