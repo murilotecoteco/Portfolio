@@ -214,11 +214,10 @@ function Hero() {
           <span aria-hidden="true" className="px-2 text-signal">·</span>
           <span>TypeScript</span>
           <span aria-hidden="true" className="px-2 text-signal">·</span>
-          <span>Node</span>
+          <span>Node.js</span>
           <span aria-hidden="true" className="px-2 text-signal">·</span>
           <span>Angular</span>
-          <span aria-hidden="true" className="px-2 text-signal">·</span>
-          <span>Inglês Avançado</span>
+
         </motion.p>
 
         <motion.p
