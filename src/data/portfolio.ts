@@ -1,20 +1,21 @@
 import academiaInicio from "../assets/academiainicio.webp";
 import SolarCME from "../assets/solarcme.webp";
 import taskManager from "../assets/taskmanager.webp";
+import mgmotorsPreview from "../assets/download.png";
 
 export const profile = {
   name: "Murilo de Souza Cândido",
   first: "Murilo",
-  role: "Desenvolvedor Front-end",
+  role: "Estudante de Desenvolvimento Web",
   headline:
-    "Desmonto sistemas para entender como funcionam. Depois, construo os meus — e contribuo com os dos outros.",
+    "Estudo desenvolvimento web construindo projetos práticos, entendendo cada camada e evoluindo uma versão de cada vez.",
   intro:
-    "Estudante de Informática para Internet no IFPR e aluno especial em Sistemas para Internet na UTFPR, focado em desenvolvimento front-end — interfaces e aplicações web com craft e atenção a detalhe.",
+    "Estudante de Informática para Internet no IFPR e aluno especial em Sistemas para Internet na UTFPR. Desenvolvo projetos práticos para aprender front-end, back-end e integração com dados.",
   location: "Paraná, BR · UTC−3",
   github: "https://github.com/murilotecoteco",
   email: "candidomurilo809@gmail.com",
-  status: "online — aberto a oportunidades",
-  availability: "aberto a oportunidades",
+  status: "online — estudante em evolução",
+  availability: "estudante em evolução · aberto a oportunidades",
 };
 
 export type Project = {
@@ -41,6 +42,7 @@ export const projects: Project[] = [
     tech: ["HTML5", "CSS3", "JavaScript", "Supabase", "PostgreSQL", "RLS", "Storage", "Realtime", "Vercel"],
     type: "full stack",
     status: { label: "finalizado", state: "ok" },
+    image: mgmotorsPreview,
     link: "https://github.com/murilotecoteco/MGMOTORS",
     demo: "https://mgmotorss.vercel.app/MG-INICIO/inicio.html",
     featured: true,
@@ -204,7 +206,7 @@ export const timeline = [
   {
     version: "v0.5",
     title: "Desenvolvimento web",
-    text: "Primeiros projetos web de verdade. Aprendi React, TypeScript e que a parte difícil raramente é escrever código — é fazer tudo funcionar junto.",
+    text: "Primeiros projetos web de verdade. Comecei a praticar React e TypeScript e entendi que a parte difícil raramente é escrever código — é fazer tudo funcionar junto.",
   },
   {
     version: "v1.0",
@@ -235,19 +237,19 @@ export const timeline = [
 
 export const toolchain = [
   {
-    group: "linguagens",
+    group: "estudando",
     items: ["TypeScript", "JavaScript", "Python", "SQL"],
   },
   {
-    group: "front-end",
+    group: "praticando no front-end",
     items: ["React", "Angular", "Tailwind CSS", "Vite"],
   },
   {
-    group: "back-end",
+    group: "explorando no back-end",
     items: ["Node.js", "PostgreSQL", "Supabase", "REST APIs"],
   },
   {
-    group: "sistema & ferramentas",
+    group: "base & ferramentas",
     items: ["Linux", "Git", "GitHub"],
   },
 ];
