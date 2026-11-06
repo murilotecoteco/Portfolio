@@ -26,7 +26,7 @@
   <a href="https://portifolio-5w7zhuw4f-murilotecoteco-s-projects.vercel.app/">
     <img src="https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge" alt="Live Demo">
   </a>
-  <a href="https://github.com/murilotecoteco/Portifolio">
+  <a href="https://github.com/murilotecoteco/Portfolio">
     <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge" alt="GitHub Repository">
   </a>
 </p>
@@ -139,7 +139,7 @@ The application is a fully static single-page application. There is no backend, 
 # Project Structure
 
 ```text
-Portifolio/
+Portfolio/
 │
 ├── public/
 │   ├── favicon.svg          # Site icon
@@ -175,7 +175,7 @@ Portifolio/
 ## Installation
 
 ```bash
-git clone https://github.com/murilotecoteco/Portifolio.git
+git clone https://github.com/murilotecoteco/Portfolio.git
 cd Portifolio
 npm install
 npm run dev
