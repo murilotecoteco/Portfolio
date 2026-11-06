@@ -13,6 +13,7 @@ Site pessoal de Murilo de Souza Cândido, estudante de desenvolvimento web com p
 - Resultados, tecnologias e aprendizados de cada projeto.
 - Seção “Em aprendizado” para React, TypeScript, Node.js e Angular.
 - Contribuições open source no Calendar.
+- Colaboração acadêmica no projeto [CME Watch](https://github.com/nasa-cme/Nasa-Cme-Dashboard).
 - Contato profissional por e-mail e GitHub.
 - Demos educacionais com limitações e dados de demonstração descritos por projeto.
 
