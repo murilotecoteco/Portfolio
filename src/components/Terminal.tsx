@@ -85,7 +85,7 @@ function Terminal() {
     } else if (name === "status") {
       print(
         <>
-          <span className="text-ok">online</span> — {profile.availability}
+          <span className="text-ok">online</span> — {profile.status}
         </>,
       );
     } else if (name === "formacao" || name === "formação") {
