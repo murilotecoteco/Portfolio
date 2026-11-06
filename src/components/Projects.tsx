@@ -21,7 +21,7 @@ function Projects() {
           blurb="Projetos práticos para estudar diferentes camadas — da interface ao banco e ao deploy."
         />
 
-        <div className="mt-12 grid gap-6 md:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
+        <div className="mt-12 grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
           {projects.map((p) => {
             const num = p.id.split("-")[1];
             return (
@@ -53,7 +53,7 @@ function Projects() {
                       src={p.image}
                       alt={`Interface do projeto ${p.title}`}
                       loading="lazy"
-                      className="aspect-[21/9] w-full max-w-full object-cover object-top transition-transform duration-200 group-hover:scale-[1.015]"
+                      className="aspect-[16/9] w-full max-w-full object-cover object-top sm:aspect-[21/9] transition-transform duration-200 group-hover:scale-[1.015]"
                     />
                     {/* scan lines — monitor desligando o brilho no hover */}
                     <div
@@ -72,6 +72,21 @@ function Projects() {
                   </p>
 
                   {/* decisões técnicas como diff + dependências como import */}
+                  <div className="mt-5 grid gap-3 border-t border-line/60 pt-4">
+                    <p className="text-xs leading-5 text-dim">
+                      <span className="mr-2 font-mono text-[0.62rem] tracking-[0.14em] text-signal uppercase">
+                        resultado
+                      </span>
+                      {p.outcome}
+                    </p>
+                    <p className="text-xs leading-5 text-dim">
+                      <span className="mr-2 font-mono text-[0.62rem] tracking-[0.14em] text-signal uppercase">
+                        aprendizado
+                      </span>
+                      {p.learning}
+                    </p>
+                  </div>
+
                   <div className="mt-5 space-y-2.5 border-l-2 border-signal/40 bg-shell/70 py-2.5 pr-3 pl-3.5">
                     <div>
                       <p className="mono-label text-faint">decisions.diff</p>
