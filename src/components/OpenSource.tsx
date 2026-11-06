@@ -2,7 +2,7 @@ import { useRef, useState, useEffect } from "react";
 import { Check, Copy, GitMerge, GitPullRequest } from "lucide-react";
 import { motion } from "framer-motion";
 import { SectionHead } from "./system";
-import { type Contribution } from "../data/portfolio";
+import { contributions as fallbackContributions, type Contribution } from "../data/portfolio";
 
 /* hash determinístico estilo commit, derivado do número do PR */
 function hashOf(seed: string) {
@@ -40,7 +40,7 @@ function mapPR(pr: GithubPR): Contribution {
 }
 
 function OpenSource() {
-  const [contributions, setContributions] = useState<Contribution[]>([]);
+  const [contributions, setContributions] = useState<Contribution[]>(fallbackContributions);
   const [isLoading, setIsLoading] = useState(true);
   const merged = contributions.filter((c) => c.state === "merged").length;
   const open = contributions.length - merged;
