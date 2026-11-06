@@ -43,6 +43,6 @@ jobs:
 
       - name: Accessibility smoke test
         run: |
-          DRIVER_PATH="$(find "$HOME/.cache" "$HOME/.npm" "$RUNNER_TEMP" -type f -name chromedriver -perm -111 2>/dev/null | head -n 1)"
+          DRIVER_PATH="$(find "$HOME/.browser-driver-manager" "$HOME/.cache" "$HOME/.npm" "$RUNNER_TEMP" -type f -name chromedriver -perm -111 2>/dev/null | head -n 1)"
           test -n "$DRIVER_PATH"
           npx --yes @axe-core/cli http://127.0.0.1:4173 --chromedriver-path "$DRIVER_PATH" --exit
