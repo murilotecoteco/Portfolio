@@ -16,7 +16,7 @@ function About() {
           index="03"
           path="sobre"
           title="Sobre mim"
-          blurb="Ninguém começa na versão 1.0. Este é o changelog de como cheguei até aqui — e para onde estou indo."
+          blurb="Estudante em formação, com projetos práticos, contribuições open source e muito espaço para continuar evoluindo."
         />
 
         <div className="mt-12 grid gap-14 grid-cols-[minmax(0,1fr)] lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)] lg:gap-20">
