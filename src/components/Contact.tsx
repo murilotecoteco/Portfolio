@@ -93,7 +93,6 @@ function Contact() {
               </a>
             </div>
         </div>
-        </div>
       </div>
 
       {/* rodapé — metadados reais de sistema */}
