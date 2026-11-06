@@ -200,7 +200,7 @@ function Hero() {
           </span>
           <Scramble
             text="CÂNDIDO"
-            className="mt-1 block whitespace-nowrap text-[clamp(3.2rem,13vw,9.6rem)] font-black text-transparent [-webkit-text-stroke:2px_var(--color-ink)] [-webkit-touch-callout:none]"
+            className="mt-1 block whitespace-nowrap text-[clamp(2.6rem,12vw,9.6rem)] font-black text-transparent [-webkit-text-stroke:2px_var(--color-ink)] [-webkit-touch-callout:none]"
           />
         </motion.h1>
 
