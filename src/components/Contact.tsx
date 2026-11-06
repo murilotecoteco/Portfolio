@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Mail } from "lucide-react";
 import { Corners, GithubIcon } from "./system";
 import { profile } from "../data/portfolio";
 
@@ -45,7 +45,7 @@ function Contact() {
         <div className="relative border border-line bg-panel/60 px-6 py-14 sm:px-12 sm:py-16">
           <Corners className="absolute -top-px -left-px -right-px -bottom-px" />
 
-          {/* periferia do painel — localidade, timestamp, status */}
+          {/* periferia do painel — localidade e timestamp */}
           <div className="flex flex-wrap items-center justify-between gap-3 border-b border-line pb-5 font-mono text-[0.68rem] text-faint">
             <p>
               <span className="text-signal">~</span>/portfolio/contato
@@ -69,10 +69,18 @@ function Contact() {
           </h2>
 
             <p className="mt-6 max-w-xl text-sm leading-7 font-light text-dim sm:text-base sm:leading-8">
-              Para acompanhar meu trabalho prático, veja o código e os projetos publicados no GitHub.
+              Para acompanhar meu trabalho prático ou falar comigo, veja os projetos publicados e entre em contato por e-mail ou GitHub.
             </p>
 
             <div className="mt-9 flex flex-wrap gap-4 font-mono text-sm">
+              <a
+                href={`mailto:${profile.email}`}
+                className="group inline-flex items-center gap-2 border border-line px-4 py-3 text-xs font-medium text-dim transition-colors hover:border-ink hover:text-ink sm:px-6 sm:text-sm"
+              >
+                <Mail className="size-4 shrink-0" />
+                enviar e-mail
+                <ArrowUpRight className="size-4 shrink-0 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+              </a>
               <a
                 href={profile.github}
                 target="_blank"
