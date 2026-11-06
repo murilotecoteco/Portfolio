@@ -176,7 +176,7 @@ Portfolio/
 
 ```bash
 git clone https://github.com/murilotecoteco/Portfolio.git
-cd Portifolio
+cd Portfolio
 npm install
 npm run dev
 ```
