@@ -3,7 +3,7 @@ import { ArrowUpRight, Mail } from "lucide-react";
 import { Corners, Dot, GithubIcon } from "./system";
 import { profile } from "../data/portfolio";
 
-const LAST_DEPLOY = "2026-09-05";
+const LAST_DEPLOY = "2026-11-06";
 
 function pad(n: number) {
   return String(n).padStart(2, "0");
@@ -45,7 +45,7 @@ function Contact() {
         <div className="relative border border-line bg-panel/60 px-6 py-14 sm:px-12 sm:py-16">
           <Corners className="absolute -top-px -left-px -right-px -bottom-px" />
 
-          {/* periferia do painel — coordenadas, timestamp, status */}
+          {/* periferia do painel — localidade, timestamp, status */}
           <div className="flex flex-wrap items-center justify-between gap-3 border-b border-line pb-5 font-mono text-[0.68rem] text-faint">
             <p>
               <span className="text-signal">~</span>/portfolio/contato
@@ -58,8 +58,7 @@ function Contact() {
               local time <span className="text-dim">{clock}</span> UTC−3
             </p>
             <p className="hidden md:block">
-              lat <span className="text-dim">−25.2521</span> · lon{" "}
-              <span className="text-dim">−51.4891</span>
+              local <span className="text-dim">Paraná, BR</span>
             </p>
           </div>
 
