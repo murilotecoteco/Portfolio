@@ -11,7 +11,7 @@ Site pessoal de Murilo de Souza Cândido, estudante de desenvolvimento web com p
 - Resultados, tecnologias e aprendizados de cada projeto.
 - Seção “Em aprendizado” para React, TypeScript, Node.js e Angular.
 - Contribuições open source no Calendar.
-- Contato profissional curto pelo GitHub.
+- Contato profissional por e-mail e GitHub.
 
 ## Stack do site
 
