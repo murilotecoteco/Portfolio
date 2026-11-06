@@ -57,7 +57,7 @@ function About() {
                   código — e para o Open Source.
                 </p>
                 <p className="mt-4 text-sm leading-7 font-light text-dim sm:text-base sm:leading-8">
-                  Hoje estudo Técnico em Informática para Internet no IFPR,
+                  Hoje estudo Técnico em Informática para Web no IFPR,
                   curso disciplinas de Sistemas para Internet na UTFPR como
                   aluno especial — do Bash e do C até organização de
                   computadores e segurança — e construo projetos próprios para
