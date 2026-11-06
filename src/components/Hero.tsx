@@ -277,7 +277,7 @@ function Hero() {
           >
             <span className="mb-2.5 block h-px w-10 bg-signal" />
             <span className="text-dim">ifpr</span> — estudante de informática p/
-            internet
+            web
           </div>
         </motion.div>
       </div>
