@@ -1,7 +1,7 @@
 import academiaInicio from "../assets/academiainicio.webp";
 import SolarCME from "../assets/solarcme.webp";
 import taskManager from "../assets/taskmanager.webp";
-import mgmotorsPreview from "../assets/download.png";
+import mgmotorsPreview from "../assets/mgmotors-preview.png";
 
 export const profile = {
   name: "Murilo de Souza Cândido",
