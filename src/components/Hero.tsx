@@ -178,8 +178,8 @@ function Hero() {
           data-depth="0.26"
           className="font-mono text-[0.68rem] tracking-[0.22em] text-dim [writing-mode:vertical-rl] will-change-transform"
         >
-          React<span className="py-1.5 text-signal">·</span>TypeScript
-          <span className="py-1.5 text-signal">·</span>Angular
+          estudando<span className="py-1.5 text-signal">·</span>praticando
+          <span className="py-1.5 text-signal">·</span>construindo
           <span className="mt-4 block h-12 w-px bg-line" />
         </div>
       </div>
@@ -208,7 +208,9 @@ function Hero() {
           {...enter(0.2)}
           className="mt-6 flex max-w-[36rem] flex-wrap items-baseline gap-y-1 font-mono text-[0.68rem] tracking-[0.1em] text-faint uppercase sm:text-xs sm:tracking-[0.18em] lg:ml-[22vw]"
         >
-          <span>front-end</span>
+          <span>estudante</span>
+          <span aria-hidden="true" className="px-2 text-signal">·</span>
+          <span>front-end em formação</span>
           <span aria-hidden="true" className="px-2 text-signal">·</span>
           <span>React</span>
           <span aria-hidden="true" className="px-2 text-signal">·</span>
@@ -224,15 +226,11 @@ function Hero() {
           {...enter(0.25)}
           className="mt-6 max-w-[36rem] text-[clamp(1.02rem,1.7vw,1.3rem)] leading-[1.65] font-light text-dim lg:ml-[22vw]"
         >
-          Desmonto{" "}
+          Estudo desenvolvimento web construindo{" "}
           <span className="shadow-[inset_0_-0.34em_rgb(235_94_40_/_0.28)]">
-            sistemas
-          </span>{" "}
-          para entender como funcionam. Depois,{" "}
-          <em className="font-semibold text-ink not-italic">
-            construo os meus
-          </em>{" "}
-          — e contribuo com os dos outros.
+            projetos práticos
+          </span>
+          . Exploro cada camada, registro o que aprendo e evoluo uma versão de cada vez.
         </motion.p>
 
         <motion.div
@@ -278,7 +276,7 @@ function Hero() {
             className="font-mono text-[0.72rem] tracking-wide text-faint will-change-transform"
           >
             <span className="mb-2.5 block h-px w-10 bg-signal" />
-            <span className="text-dim">ifpr</span> — téc. informática p/
+            <span className="text-dim">ifpr</span> — estudante de informática p/
             internet
           </div>
         </motion.div>
