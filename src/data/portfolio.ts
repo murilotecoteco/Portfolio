@@ -22,6 +22,8 @@ export type Project = {
   id: string;
   title: string;
   description: string;
+  outcome: string;
+  learning: string;
   tech: string[];
   type: string;
   status: { label: string; state: "ok" | "building" | "idle" };
@@ -39,6 +41,10 @@ export const projects: Project[] = [
     title: "MGMOTORS",
     description:
       "Marketplace web de veículos com autenticação, PostgreSQL, RLS, Storage privado, chat em tempo real e painel administrativo.",
+    outcome:
+      "Marketplace com anúncios, busca, favoritos, mensagens e moderação.",
+    learning:
+      "Praticar a integração entre frontend estático, Auth, RLS, Storage e Realtime.",
     tech: ["HTML5", "CSS3", "JavaScript", "Supabase", "PostgreSQL", "RLS", "Storage", "Realtime", "Vercel"],
     type: "full stack",
     status: { label: "finalizado", state: "ok" },
@@ -59,6 +65,10 @@ export const projects: Project[] = [
     title: "Academia com Pagamentos",
     description:
       "Aplicação web full stack para gerenciamento de planos de academia e assinaturas recorrentes, com autenticação, checkout e webhooks.",
+    outcome:
+      "Fluxo demonstrável de assinatura com Checkout, Billing Portal e sincronização via webhook.",
+    learning:
+      "Entender pagamentos assíncronos, idempotência e separação entre cliente e servidor.",
     tech: ["HTML5", "CSS3", "JavaScript", "Node.js", "Express", "Zod", "Supabase", "Stripe", "Jest", "Render"],
     type: "full stack",
     status: { label: "finalizado", state: "ok" },
@@ -79,6 +89,10 @@ export const projects: Project[] = [
     title: "Solar CME Monitor",
     description:
       "Aplicação web para monitoramento de eventos solares (CMEs) e visualização de dados solares.",
+    outcome:
+      "Monitor com consulta de eventos solares, histórico persistido e visualizações por evento.",
+    learning:
+      "Praticar consumo protegido de API, Edge Functions e testes offline.",
     tech: ["React", "Vite", "JavaScript", "TypeScript", "Supabase", "PostgreSQL", "Deno", "Vercel", "Vitest"],
     type: "data app",
     status: { label: "finalizado", state: "ok" },
@@ -97,6 +111,10 @@ export const projects: Project[] = [
     title: "Task Manager",
     description:
       "Aplicação de gerenciamento de tarefas com Next.js, TypeScript, persistência local, filtros e dashboard de estatísticas.",
+    outcome:
+      "App com criação, edição, filtros, estatísticas, tema e persistência no navegador.",
+    learning:
+      "Consolidar componentes React/Next.js, tipagem e estado no client-side.",
     tech: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Vercel", "GitHub"],
     type: "web app",
     status: { label: "finalizado", state: "ok" },
