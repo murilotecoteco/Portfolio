@@ -67,7 +67,7 @@ function Terminal() {
       print(
         <>
           Murilo de Souza Cândido —{" "}
-          <span className="text-signal">dev front-end</span> em formação.
+          <span className="text-signal">estudante de desenvolvimento web</span>.
           <br />
           <span className="text-faint">
             desmonta sistemas, constrói os seus, contribui com os dos outros.
@@ -77,7 +77,7 @@ function Terminal() {
     } else if (name === "stack") {
       print(
         <>
-          React <span className="text-faint">·</span> TypeScript{" "}
+          estudando: React <span className="text-faint">·</span> TypeScript{" "}
           <span className="text-faint">·</span> Angular{" "}
           <span className="text-faint">— e sempre um terminal aberto</span>
         </>,
