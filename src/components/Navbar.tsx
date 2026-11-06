@@ -7,6 +7,7 @@ const links = [
   { href: "#projetos", label: "projetos" },
   { href: "#open-source", label: "open source" },
   { href: "#sobre", label: "sobre" },
+  { href: "#aprendizado", label: "em aprendizado" },
   { href: "#contato", label: "contato" },
 ];
 
@@ -97,7 +98,7 @@ function Navbar() {
         </a>
 
         {/* desktop: links inline */}
-        <div className="hidden items-center gap-7 font-mono text-xs text-dim sm:flex">
+        <div className="hidden items-center gap-7 font-mono text-xs text-dim lg:flex">
           {links.map((l) => (
             <a
               key={l.href}
@@ -132,7 +133,7 @@ function Navbar() {
           aria-expanded={open}
           aria-controls="menu-overlay"
           aria-label={open ? "Fechar menu de navegação" : "Abrir menu de navegação"}
-          className="relative z-50 flex size-10 flex-col items-center justify-center gap-[5px] border border-line bg-panel text-ink transition-colors hover:border-line-strong sm:hidden"
+          className="relative z-50 flex size-10 flex-col items-center justify-center gap-[5px] border border-line bg-panel text-ink transition-colors hover:border-line-strong lg:hidden"
         >
           <span
             aria-hidden="true"
@@ -159,7 +160,7 @@ function Navbar() {
             exit={{ opacity: 0, transition: { duration: 0.15 } }}
             onClick={() => setOpen(false)}
             aria-hidden="true"
-            className="fixed inset-0 top-16 z-40 bg-shell/80 backdrop-blur-sm sm:hidden"
+            className="fixed inset-0 top-16 z-40 bg-shell/80 backdrop-blur-sm lg:hidden"
           />
         )}
       </AnimatePresence>
@@ -188,7 +189,7 @@ function Navbar() {
             }}
             style={{ transformOrigin: "top right" }}
             onKeyDown={trapTab}
-            className="fixed top-[4.4rem] right-4 left-4 z-50 origin-top-right border border-line bg-panel font-mono text-sm shadow-2xl shadow-black/60 sm:hidden"
+            className="fixed top-[4.4rem] right-4 left-4 z-50 origin-top-right border border-line bg-panel font-mono text-sm shadow-2xl shadow-black/60 lg:hidden"
           >
             <div className="flex items-center justify-between border-b border-line px-4 py-2.5 text-[0.68rem] text-faint">
               <span>
