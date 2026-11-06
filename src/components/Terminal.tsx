@@ -91,7 +91,7 @@ function Terminal() {
     } else if (name === "formacao" || name === "formação") {
       print(
         <>
-          Téc. Informática p/ Internet — IFPR
+          Téc. Informática p/ Web — IFPR
           <br />
           <span className="text-faint">
             + disciplinas de Sistemas p/ Internet na UTFPR (aluno especial)
