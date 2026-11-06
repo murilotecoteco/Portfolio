@@ -2,6 +2,8 @@
 
 Site pessoal de Murilo de Souza Cândido, estudante de desenvolvimento web com projetos práticos, contribuições open source e evolução contínua.
 
+[![Quality](https://github.com/murilotecoteco/Portfolio/actions/workflows/quality.yml/badge.svg)](https://github.com/muriloteco/Portfolio/actions/workflows/quality.yml)
+
 [Site publicado](https://portifolio-murilosc.vercel.app/) · [Código-fonte](https://github.com/murilotecoteco/Portfolio)
 
 ## O que o site apresenta
@@ -12,6 +14,7 @@ Site pessoal de Murilo de Souza Cândido, estudante de desenvolvimento web com p
 - Seção “Em aprendizado” para React, TypeScript, Node.js e Angular.
 - Contribuições open source no Calendar.
 - Contato profissional por e-mail e GitHub.
+- Demos educacionais com limitações e dados de demonstração descritos por projeto.
 
 ## Stack do site
 
@@ -32,7 +35,7 @@ Pré-requisitos: Node.js 20+ e npm.
 ```bash
 git clone https://github.com/murilotecoteco/Portfolio.git
 cd Portfolio
-npm install
+npm ci
 npm run dev
 ```
 
