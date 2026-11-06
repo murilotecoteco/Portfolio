@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-in%20development-orange" alt="Status">
+  <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Status">
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <a href="https://portifolio-5w7zhuw4f-murilotecoteco-s-projects.vercel.app/">
+  <a href="https://portifolio-murilosc.vercel.app/">
     <img src="https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge" alt="Live Demo">
   </a>
   <a href="https://github.com/murilotecoteco/Portfolio">
@@ -85,11 +85,12 @@ This project was built to:
 
 * ✅ Sticky navbar with backdrop blur and smooth scroll navigation
 * ✅ Hero section with name, role, description, call-to-action buttons and tech tags
-* ⏳ Projects section
-* ⏳ Tech stack section
-* ⏳ About section
-* ⏳ Contact section
-* ⏳ Page animations with Framer Motion
+* ✅ Projects section
+* ✅ Tech stack section
+* ✅ About section
+* ✅ Contact section
+* ✅ Page animations with Framer Motion
+* ✅ Responsive layout
 * ⏳ Mobile hamburger menu
 
 ---
@@ -213,15 +214,15 @@ Vercel serves the compiled `dist/` folder directly from its CDN.
 Production URL:
 
 ```
-https://portifolio-5w7zhuw4f-murilotecoteco-s-projects.vercel.app/
+https://portifolio-murilosc.vercel.app/
 ```
 
 ---
 
 # Known Limitations
 
-* Project repository/demo links point to the general repositories list; update `src/data/portfolio.ts` with the per-project URLs as they become public.
-* The About timeline, toolchain and Open Source entries are centralized in `src/data/portfolio.ts` and should be kept up to date as new contributions land.
+* Open Source statistics are loaded from the GitHub API and use the local data in `src/data/portfolio.ts` as a fallback.
+* Project descriptions, links, timeline and toolchain are centralized in `src/data/portfolio.ts` and should be kept up to date as the portfolio evolves.
 
 ---
 
@@ -230,11 +231,12 @@ https://portifolio-5w7zhuw4f-murilotecoteco-s-projects.vercel.app/
 * [x] Project scaffold (React + TypeScript + Vite + Tailwind CSS v4)
 * [x] Sticky navbar with backdrop blur
 * [x] Hero section
-* [ ] Projects section
-* [ ] Tech stack section
-* [ ] About section
-* [ ] Contact section
-* [ ] Framer Motion page animations
+* [x] Projects section
+* [x] Tech stack section
+* [x] About section
+* [x] Contact section
+* [x] Framer Motion page animations
+* [x] Responsive layout
 * [ ] Mobile hamburger menu
 
 ---
