@@ -18,7 +18,7 @@ function Projects() {
           index="01"
           path="projetos"
           title="Projetos"
-          blurb="Módulos de software construídos de ponta a ponta — do schema do banco ao deploy."
+          blurb="Projetos práticos para estudar diferentes camadas — da interface ao banco e ao deploy."
         />
 
         <div className="mt-12 grid gap-6 md:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
